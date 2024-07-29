@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ringier - TRAC</title>
+  <style>
+	  html,
+	  body {
+		  font-family: Helvetica,Verdana,Geneva,sans-serif;
+		  padding:0;
+		  margin: 0;
+		  width: 100vw;
+	  }
+    .container {
+      width: 100%;
+	  margin: 0;
+	  padding: 0;
+	  display: block;
+	  font-size: 20px;
+	  line-height: 26px;
+	  display:block;
+    }
+	.middle-middle {
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+		margin: auto;
+	    /*background-color: pink;*/
+	}
+	
+	.loading-dots {
+	    animation: pulse 1s infinite;
+	}
+
+	@keyframes pulse {
+	    0% {
+	        opacity: 0;
+	    }
+	    50% {
+	        opacity: 1;
+	    }
+	    100% {
+	        opacity: 0;
+	    }
+	}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+	  <div class="middle-middle">
+		  	  <em>Ringier TRAC 2024 is loading<span class="loading-dots">...</span></em><br/>
+	  </div>
+  </div>
+</body>
+</html>

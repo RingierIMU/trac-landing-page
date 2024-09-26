@@ -365,7 +365,7 @@ strong {
   color: #fff;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   width: 46%;
   max-width: 450px;
   font-family: Anek Malayalam, sans-serif;
@@ -1716,6 +1716,15 @@ strong {
   font-weight: 600;
 }
 
+.image-7 {
+  aspect-ratio: 3 / 2;
+  width: 659px;
+  height: 416.359px;
+  position: relative;
+  inset: 13% 0% 0% auto;
+  overflow: visible;
+}
+
 @media screen and (min-width: 1280px) {
   .section-container.service {
     padding-left: 65px;
@@ -1864,6 +1873,10 @@ strong {
 
   .div-block-8 {
     max-width: 1400px;
+  }
+
+  .image-7 {
+    aspect-ratio: auto;
   }
 }
 
@@ -2106,6 +2119,11 @@ strong {
   }
 
   .section-container.hero {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -2347,6 +2365,12 @@ strong {
 
   .button-1-copy:hover {
     transform: none;
+  }
+
+  .image-7 {
+    object-fit: cover;
+    padding-top: 0;
+    top: 22%;
   }
 }
 
@@ -2598,6 +2622,10 @@ strong {
   .button-1-copy {
     padding: 1px;
   }
+
+  .image-7 {
+    object-fit: cover;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2611,14 +2639,19 @@ strong {
     padding-right: 6vw;
   }
 
+  .section-wrapper.glow-3 {
+    flex-flow: column;
+  }
+
   .section-wrapper.glow-1 {
     padding-bottom: 20px;
   }
 
   .section-container.hero {
     flex-flow: column;
+    justify-content: center;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0;
   }
 
   .section-container.process, .section-container.faqs {
@@ -2951,6 +2984,12 @@ strong {
 
   .heading-13 {
     font-weight: 700;
+  }
+
+  .image-7 {
+    aspect-ratio: auto;
+    object-fit: cover;
+    height: 200px;
   }
 }
 

@@ -219,7 +219,7 @@ strong {
 }
 
 .section-container.contact {
-  padding-top: 100px;
+  padding-top: 0;
   padding-bottom: 0;
 }
 
@@ -364,6 +364,8 @@ strong {
   grid-row-gap: 20px;
   color: #fff;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   width: 46%;
   max-width: 450px;
   font-family: Anek Malayalam, sans-serif;
@@ -374,14 +376,16 @@ strong {
 }
 
 .section-title {
+  text-align: center;
   flex-flow: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   min-width: 24px;
   margin-top: 0;
   margin-bottom: 0;
+  padding-bottom: 10px;
   font-size: 34px;
-  font-weight: 700;
+  font-weight: 600;
   display: flex;
 }
 
@@ -496,6 +500,7 @@ strong {
   justify-content: flex-start;
   align-items: flex-start;
   font-style: normal;
+  font-weight: 600;
   display: flex;
   position: relative;
 }
@@ -998,7 +1003,7 @@ strong {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 0;
   padding-bottom: 20px;
   display: flex;
 }
@@ -1582,10 +1587,10 @@ strong {
 .brix---heading-h2-size {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Anek Malayalam, sans-serif;
   font-size: 38px;
-  font-weight: 700;
-  line-height: 50px;
+  font-weight: 600;
+  line-height: 40px;
 }
 
 .brix---mg-bottom-16px {
@@ -1663,10 +1668,13 @@ strong {
 
 .heading-11 {
   text-align: center;
-  padding-top: 60px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Anek Malayalam, sans-serif;
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .bold-text-6 {
@@ -1691,6 +1699,21 @@ strong {
   align-self: auto;
   align-items: flex-start;
   display: flex;
+}
+
+.heading-13 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 600;
+}
+
+.text-block-3, .text-block-4 {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.bold-text-8 {
+  padding-bottom: 10px;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 1280px) {
@@ -1888,7 +1911,7 @@ strong {
   }
 
   .section-title {
-    text-align: left;
+    text-align: center;
     justify-content: center;
     align-items: flex-start;
     min-width: 1400px;
@@ -1898,6 +1921,10 @@ strong {
   .process-card-container, .faq-wrapper {
     grid-row-gap: 5px;
     flex-direction: column;
+  }
+
+  .toggle-text {
+    font-weight: 600;
   }
 
   .contact-content-container {
@@ -2584,6 +2611,10 @@ strong {
     padding-right: 6vw;
   }
 
+  .section-wrapper.glow-1 {
+    padding-bottom: 20px;
+  }
+
   .section-container.hero {
     flex-flow: column;
     padding-top: 60px;
@@ -2629,6 +2660,7 @@ strong {
   }
 
   .section-title {
+    padding-bottom: 20px;
     font-size: 34px;
   }
 
@@ -2642,6 +2674,10 @@ strong {
 
   .process-card-paragraph {
     font-size: 13px;
+  }
+
+  .toggle-text {
+    font-weight: 600;
   }
 
   .faq-answer-container {
@@ -2870,6 +2906,8 @@ strong {
   }
 
   .brix---heading-h2-size {
+    justify-content: center;
+    align-items: flex-start;
     font-size: 24px;
     line-height: 34px;
     display: flex;

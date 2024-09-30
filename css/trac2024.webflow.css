@@ -219,7 +219,7 @@ strong {
 }
 
 .section-container.contact {
-  padding-top: 0;
+  padding-top: 40px;
   padding-bottom: 0;
 }
 
@@ -255,7 +255,7 @@ strong {
   background-image: linear-gradient(113deg, var(--ringier-pink), #a822af 0%, #4a55f9 100%, #4454fe);
   text-align: center;
   border-radius: 50px;
-  padding: 10px 2px 2px;
+  padding: 0 2px 2px;
   text-decoration: none;
   transition-duration: .4s;
 }
@@ -365,7 +365,7 @@ strong {
   color: #fff;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 46%;
   max-width: 450px;
   font-family: Anek Malayalam, sans-serif;
@@ -1168,7 +1168,7 @@ strong {
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
-  place-items: center;
+  place-items: center start;
   display: grid;
 }
 
@@ -1730,6 +1730,10 @@ strong {
     padding-left: 65px;
   }
 
+  .section-container.contact {
+    padding-bottom: 40px;
+  }
+
   .service-card {
     padding: 55px;
   }
@@ -1925,7 +1929,7 @@ strong {
 
   .section-title {
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     min-width: 1400px;
     font-size: 40px;
@@ -2137,8 +2141,8 @@ strong {
   }
 
   .section-container.contact {
-    padding-top: 100px;
-    padding-bottom: 220px;
+    padding-top: 60px;
+    padding-bottom: 40px;
   }
 
   .hero-content-conatiner {
@@ -2180,6 +2184,8 @@ strong {
   }
 
   .section-title-container {
+    justify-content: center;
+    align-items: flex-start;
     font-size: 15px;
   }
 
@@ -2276,7 +2282,7 @@ strong {
   }
 
   .slider-section-container {
-    padding-top: 100px;
+    padding-top: 20px;
   }
 
   .navigation-wrapper {
@@ -2358,9 +2364,17 @@ strong {
     line-height: 46px;
   }
 
+  .brix---container-default {
+    padding-top: 0;
+  }
+
   .brix---section {
     padding-top: 118px;
     padding-bottom: 118px;
+  }
+
+  .heading-11 {
+    margin-bottom: 120px;
   }
 
   .button-1-copy:hover {
@@ -2402,7 +2416,7 @@ strong {
 
   .section-container.contact {
     padding-top: 75px;
-    padding-bottom: 160px;
+    padding-bottom: 0;
   }
 
   .hero-content-conatiner {
@@ -2690,6 +2704,11 @@ strong {
 
   .service-card-list {
     font-size: 13px;
+  }
+
+  .section-title-container {
+    justify-content: center;
+    align-items: flex-start;
   }
 
   .section-title {
